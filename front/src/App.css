@@ -1,0 +1,64 @@
+#root {
+  max-width: 1800px;
+  --first-color: "";
+  --second-color: "";
+  --third-color: "";
+  --font-family: "";
+}
+
+html {
+  box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  /* background-color: rebeccapurple; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sectionFooter {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rebeccapurple;
+}
+
+.section {
+  width: 92%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+} */
+
+h1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
